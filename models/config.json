@@ -1,0 +1,25 @@
+{
+  "model_name": "Invoice NER Model",
+  "version": "1.0.0",
+  "vocab_size": 2093,
+  "num_labels": 7,
+  "embedding_dim": 128,
+  "lstm_units": 128,
+  "max_seq_length": 200,
+  "entities": [
+    "O",
+    "B-DATE",
+    "B-INVOICE_NUMBER",
+    "B-TAX",
+    "B-TOTAL",
+    "B-VENDOR",
+    "I-VENDOR"
+  ],
+  "training_samples": 700,
+  "final_accuracy": 100.0,
+  "final_recall": 100.0,
+  "final_f1": 100.0,
+  "trained_date": "2026-01-29 13:25:21",
+  "training_epochs": 10,
+  "best_epoch": 2
+}

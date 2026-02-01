@@ -1,0 +1,11 @@
+txt
+fastapi
+uvicorn
+tensorflow
+numpy
+pydantic
+python-multipart
+pytesseract
+pdf2image
+Pillow
+pytest
